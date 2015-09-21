@@ -25,6 +25,14 @@
           <param name="vcsRootId" value="Appserver_HttpsGithubComTiger66639appserverGitRefsHeadsMaster" />
         </parameters>
       </extension>
+      <extension id="BUILD_EXT_19" type="AutoMergeFeature">
+        <parameters>
+          <param name="teamcity.automerge.dstBranch" value="master" />
+          <param name="teamcity.automerge.message" value="master" />
+          <param name="teamcity.automerge.srcBranchFilter" value="master" />
+          <param name="teamcity.merge.policy" value="fastForward" />
+        </parameters>
+      </extension>
     </build-extensions>
     <cleanup />
   </settings>
