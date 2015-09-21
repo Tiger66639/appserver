@@ -18,6 +18,14 @@
     </vcs-settings>
     <requirements />
     <build-triggers />
+    <build-extensions>
+      <extension id="BUILD_EXT_16" type="VcsLabeling">
+        <parameters>
+          <param name="labelingPattern" value="build-%system.build.number%" />
+          <param name="vcsRootId" value="Appserver_HttpsGithubComTiger66639appserverGitRefsHeadsMaster" />
+        </parameters>
+      </extension>
+    </build-extensions>
     <cleanup />
   </settings>
 </build-type>
